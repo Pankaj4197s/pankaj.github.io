@@ -51,7 +51,7 @@ const AboutMe = (props) => {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400  tracking-wide">
-                Howdy! My name is Sankalp Chapalgaonkar and I'm currently
+                Hi! My name is Pankaj Sharma and I'm currently
                 pursuing{" "}
                 <span className="text-AAsecondary">Master's Degree</span> in{" "}
                 <span className="text-AAsecondary">Computer Science</span> at{" "}

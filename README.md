@@ -1,3 +1,3 @@
-# sankalpchap1.github.io
+# pankaj.github.io
 
-Sankalp's Personal Website
+Pankaj's Personal Website

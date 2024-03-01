@@ -20,7 +20,7 @@ const MyName = () => {
         }}
         className="text-AAsecondary font-mono"
       >
-        Howdy, my name is
+        Hi, my name is
       </motion.span>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -31,7 +31,7 @@ const MyName = () => {
         }}
         className="text-gray-300 font-bold text-3xl lg:text-5xl sm:text-5xl md:text-6xl mt-4"
       >
-        Sankalp Chapalgaonkar.
+        Pankaj Sharma.
       </motion.h1>
       <div className="flex items-center">
         <motion.h2
