@@ -79,11 +79,10 @@ const MyName = () => {
         I&apos;m a <span className="text-AAsecondary">software engineer</span>{" "}
         skilled in problem-solving and specializing in building
         <br className="md:block hidden" /> full stack web applications for real
-        world problems. Currently, I&apos;m pursuing my{" "}
+        world problems. Currently, I&apos;m working as an{" "}
         <br className="md:block hidden" />
-        <span className="text-AAsecondary">Master's degree</span> in Computer
-        Science at{" "}
-        <span className="text-AAsecondary">Texas A&M University</span>.
+        <span className="text-AAsecondary">Associate Software Engineer</span> at{" "}
+        <span className="text-AAsecondary">JP Morgan Chase and Co.</span>.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}

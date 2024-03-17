@@ -51,22 +51,22 @@ const AboutMe = (props) => {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400  tracking-wide">
-                Hi! My name is Pankaj Sharma and I'm currently
-                pursuing{" "}
-                <span className="text-AAsecondary">Master's Degree</span> in{" "}
-                <span className="text-AAsecondary">Computer Science</span> at{" "}
-                <span className="text-AAsecondary">Texas A&M University</span>.
-                My coursework at Texas A&M University includes Machine Learning,
+                Hi! My name is Pankaj Sharma. After completing my graduation, I am working with{" "}
+                 {/* and I'm currently
+                working as a {" "}
+                <span className="text-AAsecondary">Associate Software Engineer</span> at{" "}
+                <span className="text-AAsecondary">JP Morgan Chase and Co.</span> */}
+                 {/* at{" "} */}
+                {/* <span className="text-AAsecondary">Texas A&M University</span>. */}
+                {/* My coursework at Texas A&M University includes Machine Learning,
                 Analysis of Algorithms, Operating Systems, Information
-                Retrieval, Data Mining and Systematic Trading Strategies. After
-                completing my graduation, I worked with{" "}
+                Retrieval, Data Mining and Systematic Trading Strategies.  */}
                 <span className="text-AAsecondary">JP Morgan Chase & Co</span>{" "}
-                for over three years as an{" "}
+                for the past 5 years as an{" "}
                 <span className="text-AAsecondary">
                   Associate Software Developer
                 </span>{" "}
-                with Wealth Management line of business as a part of the Advisor
-                Connect team developing CRM software for advisors in the firm.
+                with Asset and Wealth Management line of business as a part of the Cash Management Application team developing trading software for Portfolio Managers and Cash Managers in the firm.
               </span>
             </div>
             <div className="font-Header tracking-wide">
@@ -75,20 +75,23 @@ const AboutMe = (props) => {
                 <span className="text-AAsecondary">Bachelor's Degree</span> at
                 the{" "}
                 <span className="text-AAsecondary">
-                  Indian Institute of Technology Madras
+                  Birla Institute of Technology and Science, Pilani
                 </span>{" "}
                 in{" "}
-                <span className="text-AAsecondary">Electrical Engineering</span>{" "}
-                in 2019. I co-founded a{" "}
+                <span className="text-AAsecondary">Electronics and Instrumentation Engineering</span>{" "}
+                in 2019. 
+                {/* I co-founded a{" "}
                 <span className="text-AAsecondary">Mars Rover team</span> of 30+
                 members to develop 2 Mars Rovers. My{" "}
                 <span className="text-AAsecondary">B.Tech thesis</span> was
                 focused on developing optimization methods for mm-Wave 3-D{" "}
                 <span className="text-AAsecondary">Antenna Lens Design</span>{" "}
-                for 5G wireless communication.
+                for 5G wireless communication. */}
               </span>
             </div>
-
+              <br></br>
+              <br></br>
+              <br></br>
             <span className="flex items-center mb-8">
               <div className="bg-back-subtle text-gray-400 pb-2 mr-2 rounded-full">
                 <ToolboxIcon />
