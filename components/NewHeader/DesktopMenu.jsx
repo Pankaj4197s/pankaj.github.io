@@ -152,7 +152,7 @@ export default function DesktopMenu(props) {
         </ReactScrollLink>
       </motion.span>
 
-      <a href={"/sankalp_resume.pdf"} target={"_blank"} rel="noreferrer">
+      <a href={"/pankaj_resume.pdf"} target={"_blank"} rel="noreferrer">
         <motion.button
           initial={{
             y: -40,
