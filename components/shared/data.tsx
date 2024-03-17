@@ -139,22 +139,22 @@ export const contactData: ContactProps = {
   items: [
     {
       title: "My Address",
-      description: ["Texas A&M University", "College Station, TX"],
+      description: ["Mumbai", "Maharashtra, India"],
       icon: IconMapPin,
     },
     {
       title: "Contact",
       description: [
-        "Mobile: +1 (979) 344-8130",
-        "Mail: sankalpchap1@gmail.com",
+        "Mobile: +91 75071 71516",
+        "Mail: pankaj4197s@gmail.com",
       ],
       icon: IconPhoneCall,
     },
     {
       title: "Working hours",
       description: [
-        "Monday - Friday: 08:00 - 17:00",
-        "Saturday & Sunday: 08:00 - 12:00",
+        "Monday - Friday: 11:00 - 21:00",
+        "Saturday & Sunday: 13:00 - 18:00",
       ],
       icon: IconClock,
     },

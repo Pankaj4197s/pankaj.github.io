@@ -26,7 +26,7 @@ export default function Logo(props) {
             initial={{ x: 1 }}
             className="absolute h-full w-full flex justify-center items-center text-lg font-Header text-AAsecondary"
           >
-            S
+            P
           </motion.span>
 
           <motion.div
