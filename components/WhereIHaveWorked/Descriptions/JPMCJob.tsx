@@ -4,25 +4,35 @@ import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 export default function JPMCJob() {
   const tasks = [
     {
-      text: "Worked with Wealth Management division in Advisor Connect team developing CRM softwares for advisors.",
+      text: "Working on converting existing legacy applications to containerized workloads and migrating\n" +
+        "them from the Private Cloud to Amazon Web Services(AWS EKS",
       keywords: ["Advisor Connect", "CRM softwares"],
     },
     {
-      text: "Led the legacy transformation project moving from monolithic design to microservice infrastructure having 3-Tier De-coupled Web Apps built using rxJava, Oracle, Spring Boot, Apache Kafka and Elasticsearch.",
+      text: "Actively involved\n" +
+        "in the development of Active Inventory Management (AIM) Cash Optimization based on\n" +
+        "Signavio BDM that Cash Managers and Portfolio Managers use to actively manage residual\n" +
+        "cash on client accounts before the close of day. This helped the business optimize\n" +
+        "operations and invest more than $1.6 Billion in previously uninvested cash in 2022 alone.\n" +
+        "The total invested cash volume in 2022 via AIM was $188 Billion. AIM was recognized\n" +
+        "as the ’Best Use of IT in Treasury and Capital Markets’ by Informaconnect in December\n" +
+        "2022",
       keywords: ["Oracle", "Spring Boot", "Apache Kafka", "Elasticsearch"],
     },
     {
-      text: "Designed an automated tool for scheduling intraday/daily/weekly ETL (Extract/Transform/Load) jobs for Data Migration/Processing of 5M+ records using Spring Cloud Data Flow (SCDF) Framework.",
+      text: "Worked on updating the authentication and authorization setup across\n" +
+        "micro-services to use OAuth2",
       keywords: ["Spring Cloud Data Flow"],
     },
     {
-      text: "Engineered a software within 6 months, deployed across 3 regions, providing a one-stop-shop solution for 5000+ advisors having all the required data in one screen instead of navigating through separate applications.",
+      text: "Worked on enhancing the CI/CD pipelines to the latest industry\n" +
+        "standards. I also worked on Single Page Application Development using ReactJS",
       keywords: ["5000+ advisors", "one-stop-shop solution"],
     },
-    {
-      text: "Developed an algorithm for optimal data reconciliation by comparing 10M+ records daily with efficient heap memory consumption. Built a dashboard having graphical visualisation of these data inconsistencies.",
-      keywords: ["optimal data reconciliation", "10M+ records"],
-    },
+    // {
+    //   text: "Developed an algorithm for optimal data reconciliation by comparing 10M+ records daily with efficient heap memory consumption. Built a dashboard having graphical visualisation of these data inconsistencies.",
+    //   keywords: ["optimal data reconciliation", "10M+ records"],
+    // },
   ];
   return (
     <>
@@ -35,7 +45,7 @@ export default function JPMCJob() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            July 2019 - July 2022 | Mumbai, India
+            July 2019 - Present | Mumbai, India
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

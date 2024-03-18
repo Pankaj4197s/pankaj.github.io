@@ -1,37 +1,38 @@
 import ArrowIcon from "../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function Anveshak() {
+export default function FRI() {
   const tasks = [
     {
-      text: "Co-founded a 3-tier team of 30+ members to develop 2 Rovers and represented IIT Madras in International Rover Series organized by Mars Society",
+      text: "Reviewed two ongoing projects as an Intern - Mukhya Mantri Jal Swavlambhan Abhiyan (MJSA) and Rajasthan Forestry and Biodiversity Project - Phase II",
       keywords: ["International Rover Series", "ranked 25th"],
     },
     {
-      text: "Ranked 25th (2018) and 27th (2017) among 90 plus teams across the globe",
+      text: "Analysis of the R&D department and gauged how various technologies like Quantum Geographic Information System (GIS) and Management Information System (MIS) are being used in\n" +
+        "the projects.",
       keywords: ["25th", "27th", "90 plus teams"],
     },
     {
-      text: "Coded drift compensation algorithms which dynamically corrected the rover’s path during automated terrain traversal task.",
+      text: "Visited a Self Help Group (SHG) under Community Mobilization and Joint Forest Management",
       keywords: [
         "drift compensation algorithms",
         "automated terrain traversal",
       ],
     },
-    {
-      text: "Led the Communications Module to support Non line of sight video transmission upto 1km with minimal latency using FPV, IP and USB cameras for GPS tracking of rover.",
-      keywords: [
-        "video transmission",
-        "FPV",
-        "IP",
-        "USB cameras",
-        "GPS tracking",
-      ],
-    },
-    {
-      text: "Used computer vision algorithms to detect physical markers in the vicinity of the GPS location.",
-      keywords: ["computer vision algorithms"],
-    },
+    // {
+    //   text: "Led the Communications Module to support Non line of sight video transmission upto 1km with minimal latency using FPV, IP and USB cameras for GPS tracking of rover.",
+    //   keywords: [
+    //     "video transmission",
+    //     "FPV",
+    //     "IP",
+    //     "USB cameras",
+    //     "GPS tracking",
+    //   ],
+    // },
+    // {
+    //   text: "Used computer vision algorithms to detect physical markers in the vicinity of the GPS location.",
+    //   keywords: ["computer vision algorithms"],
+    // },
   ];
   return (
     <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
@@ -43,7 +44,7 @@ export default function Anveshak() {
         </span>
         {/* Date */}
         <span className="font-mono text-xs text-gray-500">
-          May 2016 - April 2018 | Chennai, India
+          April 2017 - June 2017 | Chennai, India
         </span>
       </div>
       <div className="flex flex-col space-y-4 sm:text-sm text-xs">

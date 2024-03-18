@@ -1,14 +1,18 @@
 import ArrowIcon from "../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function JPMCIntern() {
+export default function Humsafar() {
   const tasks = [
     {
-      text: "Collaborated with the Asset Management (AM) division's Structured Product team as a full-stack software developer, contributing to the development of a comprehensive web application catering to investors' needs, from inception to deployment.",
+      text: "Created a cross-platform application for The Humsafar Trust - An NGO for LGBTQIA+\n" +
+        "Developed an application based on Ionic, Cordova, Spring Boot, and MySQL.",
       keywords: ["Structured Product", "full-stack software developer"],
     },
     {
-      text: "Implemented a robust document-inventory workflow, enabling seamless upload of over 10 different file formats, utilizing ReactJS library and TypeScript on the front-end, Spring Boot for server-side development, and SQL Server as the database management system (DBMS).",
+      text: "The app\n" +
+        "supports Social Feed for LGBTQ Events, adding these events to the calendar & setting\n" +
+        "reminders and SOS integration with calling and Navigation support that can be used\n" +
+        "in emergencies.",
       keywords: [
         "document-inventory workflow",
         "ReactJS",
@@ -19,7 +23,8 @@ export default function JPMCIntern() {
       ],
     },
     {
-      text: "Ensured high code quality and reliability by employing testing frameworks such as Mockito, JUnit, and JEST, effectively achieving comprehensive code coverage. Leveraged Jenkins tools for CICD pipeline, facilitating efficient deployment to the in-house private cloud.",
+      text: "The app also hosts a vast collection of resources ranging from Legal,\n" +
+        "Medical, and Social support that can help the LGBTQIA+ community in India.",
       keywords: [
         "Mockito",
         "JUnit",
@@ -29,10 +34,10 @@ export default function JPMCIntern() {
         "private cloud",
       ],
     },
-    {
-      text: "Implemented efficient log monitoring using Splunk, enabling proactive identification and resolution of system issues. Conducted comprehensive API testing using Postman and utilized Git for version control, ensuring a streamlined development process and efficient collaboration within the team.",
-      keywords: ["Splunk", "Postman", "REST APIs", "GIT"],
-    },
+    // {
+    //   text: "Implemented efficient log monitoring using Splunk, enabling proactive identification and resolution of system issues. Conducted comprehensive API testing using Postman and utilized Git for version control, ensuring a streamlined development process and efficient collaboration within the team.",
+    //   keywords: ["Splunk", "Postman", "REST APIs", "GIT"],
+    // },
   ];
 
   return (
@@ -46,7 +51,7 @@ export default function JPMCIntern() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            May 2018 - July 2018 | Mumbai, India
+            October 2019 - October 2020 | Mumbai, India
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">

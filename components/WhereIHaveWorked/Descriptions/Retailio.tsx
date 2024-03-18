@@ -1,18 +1,22 @@
 import ArrowIcon from "../../Icons/ArrowIcon";
 import { getTasksTextWithHighlightedKeyword } from "./taskAndType";
 
-export default function LiFiIntern() {
+export default function Retailio() {
   const tasks = [
     {
-      text: "Spearheaded research efforts to establish a fully-equipped laboratory with a LiFi testbed, facilitating experimental tests for outage analysis in SISO Li-Fi Indoor Communication environments, encompassing both Line-of-Sight (LOS) and Non-Line-of-Sight (NLOS) conditions.",
+      text: "My role was to develop Frontend functionality for Retailio’s web panels for Retailer and\n" +
+        "Distributor as well as also add functionality to internal ADMIN panel. The work included\n" +
+        "supporting these with backend API development.",
       keywords: ["LiFi testbed", "LOS", "NLOS"],
     },
     {
-      text: "Successfully deployed a practical SISO Li-Fi communication pair, conducting comprehensive experimental analysis on received power and outage distance, while considering variables such as different colors and installation heights.",
+      text: "I also worked in ERP integration, MIS\n" +
+        "report generation, and synchronization of OMS payments.",
       keywords: ["SISO Li-Fi communication pair"],
     },
     {
-      text: "Played a pivotal role in collaborating with Philips and the Eindhoven team, leveraging their expertise and resources for LiFi dongles, downlink receivers, and Modem boards, ensuring seamless integration into the experimental setup.",
+      text: "Worked on implementing\n" +
+        "batch jobs that helped reduce manual intervention in Payment Processing.",
       keywords: [
         "Philips",
         "Eindhoven",
@@ -22,7 +26,9 @@ export default function LiFiIntern() {
       ],
     },
     {
-      text: "Employed Low Noise Amplifier (LNA) technology to effectively enhance the received signal above the noise floor, optimizing signal quality and transmission reliability within the LiFi system.",
+      text: "Created UI\n" +
+        "in AngularJS where users can upload Payment Information in Excel and trigger batch\n" +
+        "jobs to process the same.",
       keywords: ["Low Noise Amplifier"],
     },
   ];
@@ -37,7 +43,7 @@ export default function LiFiIntern() {
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            June 2017 - February 2018 | Chennai, India
+            January 2019 - June 2019 | Chennai, India
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
