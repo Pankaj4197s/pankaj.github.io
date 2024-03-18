@@ -6,38 +6,19 @@ export default function Humsafar() {
     {
       text: "Created a cross-platform application for The Humsafar Trust - An NGO for LGBTQIA+\n" +
         "Developed an application based on Ionic, Cordova, Spring Boot, and MySQL.",
-      keywords: ["Structured Product", "full-stack software developer"],
+      keywords: ["The Humsafar Trust", "LGBTQIA+", "Ionic", "Cordova", "Spring Boot", "MySQL"],
     },
     {
-      text: "The app\n" +
-        "supports Social Feed for LGBTQ Events, adding these events to the calendar & setting\n" +
+      text: "The app supports Social Feed for LGBTQ Events, adding these events to the calendar & setting\n" +
         "reminders and SOS integration with calling and Navigation support that can be used\n" +
         "in emergencies.",
-      keywords: [
-        "document-inventory workflow",
-        "ReactJS",
-        "TypeScript",
-        "Spring Boot",
-        "SQL Server",
-        "DBMS",
-      ],
+      keywords: ["SOS integration", "calling", "Navigation support"],
     },
     {
       text: "The app also hosts a vast collection of resources ranging from Legal,\n" +
         "Medical, and Social support that can help the LGBTQIA+ community in India.",
-      keywords: [
-        "Mockito",
-        "JUnit",
-        "JEST",
-        "Jenkins",
-        "CICD pipeline",
-        "private cloud",
-      ],
+      keywords: ["Legal", "Medical", "Social support", "LGBTQIA+"],
     },
-    // {
-    //   text: "Implemented efficient log monitoring using Splunk, enabling proactive identification and resolution of system issues. Conducted comprehensive API testing using Postman and utilized Git for version control, ensuring a streamlined development process and efficient collaboration within the team.",
-    //   keywords: ["Splunk", "Postman", "REST APIs", "GIT"],
-    // },
   ];
 
   return (
@@ -46,8 +27,8 @@ export default function Humsafar() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Technology Analyst Intern{" "}
-            <span className="text-AAsecondary">@ Web App</span>
+            Full Stack Developer (Volunteer){" "}
+            <span className="text-AAsecondary">@ The Humsafar Trust</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">

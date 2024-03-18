@@ -5,46 +5,29 @@ export default function FRI() {
   const tasks = [
     {
       text: "Reviewed two ongoing projects as an Intern - Mukhya Mantri Jal Swavlambhan Abhiyan (MJSA) and Rajasthan Forestry and Biodiversity Project - Phase II",
-      keywords: ["International Rover Series", "ranked 25th"],
+      keywords: ["Mukhya Mantri Jal Swavlambhan Abhiyan", "MJSA", "Biodiversity Project - Phase II"],
     },
     {
       text: "Analysis of the R&D department and gauged how various technologies like Quantum Geographic Information System (GIS) and Management Information System (MIS) are being used in\n" +
         "the projects.",
-      keywords: ["25th", "27th", "90 plus teams"],
+      keywords: ["Quantum Geographic Information System", "GIS", "Management Information System", "MIS"],
     },
     {
       text: "Visited a Self Help Group (SHG) under Community Mobilization and Joint Forest Management",
-      keywords: [
-        "drift compensation algorithms",
-        "automated terrain traversal",
-      ],
-    },
-    // {
-    //   text: "Led the Communications Module to support Non line of sight video transmission upto 1km with minimal latency using FPV, IP and USB cameras for GPS tracking of rover.",
-    //   keywords: [
-    //     "video transmission",
-    //     "FPV",
-    //     "IP",
-    //     "USB cameras",
-    //     "GPS tracking",
-    //   ],
-    // },
-    // {
-    //   text: "Used computer vision algorithms to detect physical markers in the vicinity of the GPS location.",
-    //   keywords: ["computer vision algorithms"],
-    // },
+      keywords: ["Self Help Group", "SHG", "Community Mobilization", "Joint Forest Management"]
+    }
   ];
   return (
     <div className="flex flex-col space-y-5 max-w-xl px-4 md:px-0">
       <div className="flex flex-col spacey-y-2">
         {/* Title */}
         <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-          Software and Electronics Lead{" "}
-          <span className="text-AAsecondary">@ Mars Rover Team</span>
+          Research Intern{" "}
+          <span className="text-AAsecondary">@ Forest Research Institute</span>
         </span>
         {/* Date */}
         <span className="font-mono text-xs text-gray-500">
-          April 2017 - June 2017 | Chennai, India
+          April 2017 - June 2017 | Jaipur, India
         </span>
       </div>
       <div className="flex flex-col space-y-4 sm:text-sm text-xs">

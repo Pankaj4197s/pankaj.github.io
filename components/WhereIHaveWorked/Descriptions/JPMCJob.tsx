@@ -6,33 +6,33 @@ export default function JPMCJob() {
     {
       text: "Working on converting existing legacy applications to containerized workloads and migrating\n" +
         "them from the Private Cloud to Amazon Web Services(AWS EKS",
-      keywords: ["Advisor Connect", "CRM softwares"],
+      keywords: ["legacy applications", "containerized workloads", "Private Cloud", "Amazon Web Services", "AWS EKS"],
     },
     {
       text: "Actively involved\n" +
         "in the development of Active Inventory Management (AIM) Cash Optimization based on\n" +
         "Signavio BDM that Cash Managers and Portfolio Managers use to actively manage residual\n" +
-        "cash on client accounts before the close of day. This helped the business optimize\n" +
+        "cash on client accounts before the close of day.",
+      keywords: ["Active Inventory Management", "AIM", "Cash Optimization", "Signavio BDM", "Cash Managers", "Portfolio Managers", "residual cash", "client accounts"],
+    },
+    {
+      text: "This helped the business optimize\n" +
         "operations and invest more than $1.6 Billion in previously uninvested cash in 2022 alone.\n" +
         "The total invested cash volume in 2022 via AIM was $188 Billion. AIM was recognized\n" +
         "as the ’Best Use of IT in Treasury and Capital Markets’ by Informaconnect in December\n" +
         "2022",
-      keywords: ["Oracle", "Spring Boot", "Apache Kafka", "Elasticsearch"],
+      keywords: ["operations", "$1.6 Billion", "uninvested cash", "AIM", "$188 Billion", "Best Use of IT in Treasury and Capital Markets", "Informaconnect", "December 2022"],
     },
     {
       text: "Worked on updating the authentication and authorization setup across\n" +
         "micro-services to use OAuth2",
-      keywords: ["Spring Cloud Data Flow"],
+      keywords: ["authentication", "authorization", "micro-services", "OAuth2"]
     },
     {
       text: "Worked on enhancing the CI/CD pipelines to the latest industry\n" +
         "standards. I also worked on Single Page Application Development using ReactJS",
-      keywords: ["5000+ advisors", "one-stop-shop solution"],
-    },
-    // {
-    //   text: "Developed an algorithm for optimal data reconciliation by comparing 10M+ records daily with efficient heap memory consumption. Built a dashboard having graphical visualisation of these data inconsistencies.",
-    //   keywords: ["optimal data reconciliation", "10M+ records"],
-    // },
+      keywords: ["CI/CD pipelines", "industry standards", "Single Page Application", "ReactJS"]
+    }
   ];
   return (
     <>
