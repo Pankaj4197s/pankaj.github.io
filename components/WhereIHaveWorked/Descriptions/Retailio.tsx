@@ -7,29 +7,23 @@ export default function Retailio() {
       text: "My role was to develop Frontend functionality for Retailio’s web panels for Retailer and\n" +
         "Distributor as well as also add functionality to internal ADMIN panel. The work included\n" +
         "supporting these with backend API development.",
-      keywords: ["LiFi testbed", "LOS", "NLOS"],
+      keywords: ["Frontend", "Retailio", "web panels", "Retailer", "Distributor", "ADMIN panel", "API"],
     },
     {
       text: "I also worked in ERP integration, MIS\n" +
         "report generation, and synchronization of OMS payments.",
-      keywords: ["SISO Li-Fi communication pair"],
+      keywords: ["ERP", "MIS", "OMS payments"],
     },
     {
       text: "Worked on implementing\n" +
         "batch jobs that helped reduce manual intervention in Payment Processing.",
-      keywords: [
-        "Philips",
-        "Eindhoven",
-        "LiFi dongles",
-        "downlink receivers",
-        "Modem boards",
-      ],
+      keywords: ["batch jobs", "Payment Processing"],
     },
     {
       text: "Created UI\n" +
         "in AngularJS where users can upload Payment Information in Excel and trigger batch\n" +
         "jobs to process the same.",
-      keywords: ["Low Noise Amplifier"],
+      keywords: ["AngularJS", "Payment Information", "Excel", "batch jobs"],
     },
   ];
   return (
@@ -38,12 +32,12 @@ export default function Retailio() {
         <div className="flex flex-col spacey-y-2">
           {/* Title */}
           <span className="text-gray-100 sm:text-lg text-sm font-Arimo tracking-wide">
-            Research Intern{" "}
-            <span className="text-AAsecondary">@ Light Fidelity</span>
+            Software Development Intern{" "}
+            <span className="text-AAsecondary">@ Retailio</span>
           </span>
           {/* Date */}
           <span className="font-mono text-xs text-gray-500">
-            January 2019 - June 2019 | Chennai, India
+            January 2019 - June 2019 | Mumbai, India
           </span>
         </div>
         <div className="flex flex-col space-y-4 sm:text-sm text-xs">
