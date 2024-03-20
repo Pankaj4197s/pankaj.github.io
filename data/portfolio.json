@@ -18,14 +18,14 @@
   },
   "projects": [
     {
-      "title": "Travelix",
-      "description": "Personalized Travel Recommendation System",
-      "tech": ["Tensorflow", "Python", "React", "Heroku"],
+      "title": "Application of Index Calculus Method for breaking Cryptosystems",
+      "description": "Cryptography",
+      "tech": ["Python"],
       "dates": {
         "start": "Jan 2023",
         "end": "May 2023"
       },
-      "isLinks": true,
+      "isLinks": false,
       "links": {
         "github": "https://github.com/sankalpchap1/Travelix",
         "external": "https://travelix2.vercel.app/"
@@ -33,14 +33,14 @@
       "imageSrc": "/images/travelix.png"
     },
     {
-      "title": "Machine Learning Project",
-      "description": "Classification and Clustering Problem",
-      "tech": ["R", "ML", "Python"],
+      "title": "Optimal Controller Design",
+      "description": "Control Systems",
+      "tech": ["R", "Python", "Matlab"],
       "dates": {
-        "start": "Jan 2023",
-        "end": "May 2023"
+        "start": "Jan 2018",
+        "end": "May 2018"
       },
-      "isLinks": true,
+      "isLinks": false,
       "links": {
         "github": "https://github.com/sankalpchap1/SPRING23-DATA-MINING",
         "external": "https://docs.google.com/presentation/d/1CgPYrUs9_F9o5SYr7p1-knyavUg75Xc3/edit?usp=sharing&ouid=101419296723091722524&rtpof=true&sd=true"
@@ -48,14 +48,14 @@
       "imageSrc": "/images/data_mining.jpeg"
     },
     {
-      "title": "Systematic Trading Strategies",
-      "description": "Algorithmic Trading",
-      "tech": ["R", "Python", "Finance"],
+      "title": "Light Detecting Fire Alarm",
+      "description": "Electronics",
+      "tech": ["PCB Design", "Arduino", "C"],
       "dates": {
-        "start": "Jan 2023",
-        "end": "May 2023"
+        "start": "Aug 2017",
+        "end": "Dec 2017"
       },
-      "isLinks": true,
+      "isLinks": false,
       "links": {
         "github": "https://github.com/sankalpchap1/Spring23-Systematic-Trading-Strategies",
         "external": "https://docs.google.com/presentation/d/1QdYvtPRg3ibJ7p4QPWpd0bacUeyBnOOX/edit?usp=sharing&ouid=101419296723091722524&rtpof=true&sd=true"
@@ -63,14 +63,14 @@
       "imageSrc": "/images/sys_trading_strategies.webp"
     },
     {
-      "title": "Routing Algorithms",
-      "description": "Network Optimization Problem using Data Structures and Algorithms",
-      "tech": ["Java", "DSA"],
+      "title": "6164 RAM chip Tester",
+      "description": "Electronics",
+      "tech": ["Assembly", "Proteus"],
       "dates": {
-        "start": "Aug 2022",
-        "end": "Dec 2022"
+        "start": "Jan 2017",
+        "end": "May 2017"
       },
-      "isLinks": true,
+      "isLinks": false,
       "links": {
         "github": "https://github.com/sankalpchap1/cse629-fall2022-algo-project",
         "external": "sankalp_chapalgaonkar_project_report.pdf"
@@ -78,85 +78,19 @@
       "imageSrc": "/images/algorithms.jpeg"
     },
     {
-      "title": "Operating System Design",
-      "description": "Web Development",
-      "tech": ["C++"],
+      "title": "Design, Simulation and Implementation of an FSM - Parking Vehicle Counter",
+      "description": "Electronics",
+      "tech": ["Xilinx ISE"],
       "dates": {
-        "start": "Aug 2022",
-        "end": "Dec 2022"
+        "start": "Aug 2016",
+        "end": "Dec 2016"
       },
-      "isLinks": true,
+      "isLinks": false,
       "links": {
         "github": "https://github.com/sankalpchap1/FALL22-CSE611-OPERATING-SYSTEMS",
         "external": ""
       },
       "imageSrc": "/images/os_project.jpeg"
-    },
-    {
-      "title": "Automated Trading Bot",
-      "description": "Web Development",
-      "tech": ["Python", "Machine Learning"],
-      "dates": {
-        "start": "Aug 2022",
-        "end": "Dec 2022"
-      },
-      "isLinks": false,
-      "imageSrc": "/images/automated_trading_bot.jpeg"
-    },
-    {
-      "title": "Mars Rover Team",
-      "description": "Design",
-      "tech": ["C++", "Python", "Computer Vision", "Arduino", "ROS", "IOT"],
-      "dates": {
-        "start": "Aug 2022",
-        "end": "Dec 2022"
-      },
-      "isLinks": true,
-      "links": {
-        "github": "https://github.com/sankalpchap1/rover-control",
-        "external": "http://anveshak.team/?i=1"
-      },
-      "imageSrc": "/images/team_anveshak.jpeg"
-    },
-    {
-      "title": "Light Fidelity Research",
-      "description": "Li-Fi Technology",
-      "tech": ["Matlab", "Arduino", "LiFi"],
-      "dates": {
-        "start": "Aug 2022",
-        "end": "Dec 2022"
-      },
-      "isLinks": true,
-      "links": {
-        "external": "lifi_research_paper.pdf"
-      },
-      "imageSrc": "/images/lifi.jpeg"
-    },
-    {
-      "title": "NGO Android Application",
-      "description": "Fullstack Development",
-      "tech": ["Ionic", "Java", "MySQL", "AWS", "Spring Boot"],
-      "dates": {
-        "start": "Aug 2022",
-        "end": "Dec 2022"
-      },
-      "isLinks": false,
-      "imageSrc": "/images/ngo_project.jpeg"
-    },
-    {
-      "title": "3-D Lens Antenna Design",
-      "description": "Design & Development",
-      "tech": ["Matlab", "5G"],
-      "dates": {
-        "start": "Aug 2022",
-        "end": "Dec 2022"
-      },
-      "isLinks": true,
-      "links": {
-        "github": "https://github.com/sankalpchap1/5G_testbed_Antenna",
-        "external": "btech_report.pdf"
-      },
-      "imageSrc": "/images/antenna.jpeg"
     }
   ],
   "education": [
