@@ -30,7 +30,7 @@
         "github": "https://github.com/sankalpchap1/Travelix",
         "external": "https://travelix2.vercel.app/"
       },
-      "imageSrc": "/images/travelix.png"
+      "imageSrc": "/images/algorithms.jpeg"
     },
     {
       "title": "Optimal Controller Design",
@@ -75,7 +75,7 @@
         "github": "https://github.com/sankalpchap1/cse629-fall2022-algo-project",
         "external": "sankalp_chapalgaonkar_project_report.pdf"
       },
-      "imageSrc": "/images/algorithms.jpeg"
+      "imageSrc": "/images/os_project.jpeg"
     },
     {
       "title": "Design, Simulation and Implementation of an FSM - Parking Vehicle Counter",
@@ -90,7 +90,7 @@
         "github": "https://github.com/sankalpchap1/FALL22-CSE611-OPERATING-SYSTEMS",
         "external": ""
       },
-      "imageSrc": "/images/os_project.jpeg"
+      "imageSrc": "/images/travelix.png"
     }
   ],
   "education": [
