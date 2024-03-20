@@ -6,7 +6,6 @@ import Header from "../components/NewHeader/Header";
 import ProjectCard from "../components/projects/ProjectCard";
 import GetInTouch from "../components/Contact/GetInTouch";
 import WhereIHaveWorked from "../components/WhereIHaveWorked/WhereIHaveWorked";
-import MyCourses from "../components/Courses/MyCourses";
 
 export default function Home() {
   // Ref
@@ -22,7 +21,7 @@ export default function Home() {
       <AboutMe ref={aboutRef} />
       <WhereIHaveWorked />
       <ProjectCard ref={projectRef} />
-      <MyCourses />
+      {/*<MyCourses />*/}
       <GetInTouch />
     </div>
   );

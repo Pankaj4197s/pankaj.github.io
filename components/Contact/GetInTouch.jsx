@@ -17,7 +17,7 @@ export default function GetInTouch() {
         <div className="flex flex-row space-x-2 items-center">
           <span className="text-AAsecondary font-sans text-sm  sm:text-base">
             {" "}
-            05.
+            04.
           </span>
           <span className=" font-sans text-AAsecondary text-base">
             What&apos;s Next?
@@ -74,6 +74,12 @@ export default function GetInTouch() {
                   </li>
                 ))}
               </ul>
+              {/*<button*/}
+              {/*  className="font-mono text-sm text-AAsecondary border-AAsecondary*/}
+              {/*              px-8 py-4 border-[1.5px] rounded "*/}
+              {/*>*/}
+              {/*  Say Hello*/}
+              {/*</button>*/}
             </div>
             <Form {...form} btnPosition="center" />
           </div>

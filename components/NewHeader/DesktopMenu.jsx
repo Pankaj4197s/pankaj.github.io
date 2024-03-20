@@ -92,35 +92,35 @@ export default function DesktopMenu(props) {
           </span>
         </ReactScrollLink>
       </motion.div>
-      <motion.span
-        initial={{
-          y: -40,
-          opacity: 0,
-        }}
-        animate={{
-          y: 0,
-          opacity: 1,
-        }}
-        transition={{
-          type: "spring",
-          duration: 1.2,
-          delay: 1,
-        }}
-        className="text-AAsecondary"
-      >
-        <ReactScrollLink
-          to="MyCoursesSection"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={200}
-        >
-          &gt; 04.{" "}
-          <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">
-            Courses
-          </span>
-        </ReactScrollLink>
-      </motion.span>
+      {/*<motion.span*/}
+      {/*  initial={{*/}
+      {/*    y: -40,*/}
+      {/*    opacity: 0,*/}
+      {/*  }}*/}
+      {/*  animate={{*/}
+      {/*    y: 0,*/}
+      {/*    opacity: 1,*/}
+      {/*  }}*/}
+      {/*  transition={{*/}
+      {/*    type: "spring",*/}
+      {/*    duration: 1.2,*/}
+      {/*    delay: 1,*/}
+      {/*  }}*/}
+      {/*  className="text-AAsecondary"*/}
+      {/*>*/}
+      {/*  <ReactScrollLink*/}
+      {/*    to="MyCoursesSection"*/}
+      {/*    spy={true}*/}
+      {/*    smooth={true}*/}
+      {/*    offset={-100}*/}
+      {/*    duration={200}*/}
+      {/*  >*/}
+      {/*    &gt; 04.{" "}*/}
+      {/*    <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">*/}
+      {/*      Courses*/}
+      {/*    </span>*/}
+      {/*  </ReactScrollLink>*/}
+      {/*</motion.span>*/}
 
       <motion.span
         initial={{
@@ -145,7 +145,7 @@ export default function DesktopMenu(props) {
           offset={-100}
           duration={200}
         >
-          &gt; 05.{" "}
+          &gt; 04.{" "}
           <span className="text-white  hover:cursor-pointer hover:text-AAsecondary duration-300">
             Contact
           </span>
