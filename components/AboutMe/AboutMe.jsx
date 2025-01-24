@@ -51,7 +51,10 @@ const AboutMe = (props) => {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400  tracking-wide">
-                Hi! My name is Pankaj Sharma. After completing my graduation, I am working with{" "}
+                Hi! My name is Pankaj Sharma and I'm currently pursuing{" "}
+                <span className="text-AAsecondary">Master's Degree</span>{" "} in {" "}
+                <span className="text-AAsecondary">Computer Science</span>{" "} at {" "}
+                <span className="text-AAsecondary">University of California</span>{" "} at Riverside. My coursework at University of California at Riverside includes Machine Learning, Design and Analysis of Algorithms, Cloud Computing, Artificial Intelligence, Data Mining and Spatial Computing. After completing my graduation, I worked with{" "}
                  {/* and I'm currently
                 working as a {" "}
                 <span className="text-AAsecondary">Associate Software Engineer</span> at{" "}
@@ -62,7 +65,7 @@ const AboutMe = (props) => {
                 Analysis of Algorithms, Operating Systems, Information
                 Retrieval, Data Mining and Systematic Trading Strategies.  */}
                 <span className="text-AAsecondary">JP Morgan Chase & Co</span>{" "}
-                for the past 5 years as an{" "}
+                for 5 years as an{" "}
                 <span className="text-AAsecondary">
                   Associate Software Developer
                 </span>{" "}

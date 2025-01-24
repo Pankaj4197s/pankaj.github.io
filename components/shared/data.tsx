@@ -1,16 +1,16 @@
-import { FeaturesProps, ContentProps, ContactProps } from "./types";
+import { ContactProps, ContentProps, FeaturesProps } from "./types";
 import cameraFrontImg from "../../assets/images/camera-front.jpg";
 import cameraBackImg from "../../assets/images/camera-back.jpg";
 import {
   IconArrowsRightLeft,
   IconBrandTailwind,
   IconBulb,
+  IconClock,
   IconComponents,
   IconListCheck,
-  IconRocket,
   IconMapPin,
-  IconClock,
   IconPhoneCall,
+  IconRocket
 } from "@tabler/icons-react";
 
 export const featuresData: FeaturesProps = {
@@ -139,14 +139,14 @@ export const contactData: ContactProps = {
   items: [
     {
       title: "My Address",
-      description: ["Mumbai", "Maharashtra, India"],
+      description: ["Riverside", "California, USA"],
       icon: IconMapPin,
     },
     {
       title: "Contact",
       description: [
-        "Mobile: +91 75071 71516",
-        "Mail: pankaj4197s@gmail.com",
+        "Mobile: +1 (951) 712-9260",
+        "Mail: pasha.sde@gmail.com",
       ],
       icon: IconPhoneCall,
     },
