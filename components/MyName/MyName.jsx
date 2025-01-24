@@ -1,10 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Link from "next/link";
-import { useRouter } from "next/router";
 import Typewriter from "typewriter-effect";
+
 const MyName = () => {
-  const router = useRouter();
   return (
     <div
       id="MyName"
@@ -76,13 +74,11 @@ const MyName = () => {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m a <span className="text-AAsecondary">software engineer</span>{" "}
-        skilled in problem-solving and specializing in building
-        <br className="md:block hidden" /> full stack web applications for real
-        world problems. Currently, I&apos;m working as an{" "}
-        <br className="md:block hidden" />
-        <span className="text-AAsecondary">Associate Software Engineer</span> at{" "}
-        <span className="text-AAsecondary">JP Morgan Chase and Co.</span>.
+       I&apos;m a <span className="text-AAsecondary">Master&apos;s student</span> in Computer Science at the <span className="text-AAsecondary">University of California, Riverside</span>,
+        <br className="md:block hidden" />with a strong background in software development. Previously, I worked as a
+        <br className="md:block hidden" /><span className="text-AAsecondary">Software Engineer II</span> at <span
+        className="text-AAsecondary">JPMorgan Chase & Co.</span>, where I developed scalable
+        <br className="md:block hidden" />applications and modernized legacy systems to solve real-world challenges.
       </motion.h3>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
